@@ -1,0 +1,51 @@
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- Background track -->
+    <item android:id="@android:id/background">
+        <shape>
+            <corners android:radius="2dp"/>
+            <solid android:color="#D3D3D3"/> <!-- Color for the background track -->
+        </shape>
+    </item>
+
+    <!-- Progress track -->
+    <item android:id="@android:id/progress">
+        <clip>
+            <shape>
+                <corners android:radius="2dp"/>
+                <solid android:color="#FF4081"/> <!-- Color for the progress track -->
+            </shape>
+        </clip>
+    </item>
+
+    <!-- Ticks -->
+    <item>
+        <layer-list>
+            <item>
+                <shape>
+                    <size android:height="1dp" android:width="1dp"/>
+                </shape>
+            </item>
+            <item android:gravity="center_horizontal|top">
+                <shape>
+                    <size android:height="20dp" android:width="1dp"/>
+                    <solid android:color="#000000"/> <!-- Color for the ticks -->
+                </shape>
+            </item>
+            <item android:gravity="left|top">
+                <shape>
+                    <size android:height="20dp" android:width="1dp"/>
+                    <solid android:color="#000000"/> <!-- Color for the ticks -->
+                </shape>
+            </item>
+            <item android:gravity="right|top">
+                <shape>
+                    <size android:height="20dp" android:width="1dp"/>
+                    <solid android:color="#000000"/> <!-- Color for the ticks -->
+                </shape>
+            </item>
+            <!-- Add more items here if you want more ticks -->
+        </layer-list>
+    </item>
+
+</layer-list>

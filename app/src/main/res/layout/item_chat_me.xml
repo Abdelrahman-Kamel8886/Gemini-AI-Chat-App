@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingBottom="20sp">
+
+    <com.google.android.material.card.MaterialCardView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageView"
+        app:cardBackgroundColor="@color/white"
+        app:cardCornerRadius="100sp"
+        android:layout_margin="10sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:padding="5sp"
+            >
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:background="@drawable/baseline_person_24"
+                android:backgroundTint="@color/gemini_blue"
+
+                />
+        </RelativeLayout>
+    </com.google.android.material.card.MaterialCardView>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintStart_toEndOf="@id/imageView"
+        app:layout_constraintTop_toTopOf="@id/imageView"
+        app:layout_constraintBottom_toBottomOf="@id/imageView"
+        android:text="You"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:textSize="16sp"
+        android:layout_margin="10sp"
+        android:id="@+id/sender"
+        />
+
+    <TextView
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        app:layout_constraintStart_toStartOf="@id/sender"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginEnd="20sp"
+        app:layout_constraintTop_toBottomOf="@id/sender"
+        android:layout_marginTop="10sp"
+        android:text="Message"
+        android:textColor="@color/black"
+        android:textStyle="normal"
+        android:textSize="14sp"
+        android:id="@+id/message"
+        />
+
+    <com.google.android.material.card.MaterialCardView
+        android:layout_width="80sp"
+        android:layout_height="80sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/message"
+        app:layout_constraintStart_toStartOf="@id/sender"
+        android:layout_marginTop="10sp"
+        app:cardCornerRadius="10sp"
+        app:cardBackgroundColor="@color/white"
+        app:strokeWidth="0dp"
+        android:visibility="gone"
+        android:id="@+id/image_card"
+        >
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            >
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@color/gemini_blue"
+                android:id="@+id/selected_image"
+                android:scaleType="fitXY"
+                />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+    </com.google.android.material.card.MaterialCardView>
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

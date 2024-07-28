@@ -1,0 +1,52 @@
+[versions]
+agp = "8.5.1"
+androidSpinkit = "1.4.0"
+circleimageview = "3.1.0"
+gson = "2.10.1"
+junit = "4.13.2"
+junitVersion = "1.2.1"
+espressoCore = "3.6.1"
+appcompat = "1.7.0"
+material = "1.12.0"
+activity = "1.9.0"
+constraintlayout = "2.1.4"
+legacySupportV4 = "1.0.0"
+lifecycleLivedataKtx = "2.8.3"
+lifecycleViewmodelKtx = "2.8.3"
+
+generativeai = "0.9.0"
+guava = "31.0.1-android"
+photoview = "2.3.0"
+reactiveStreams = "1.0.4"
+roomRuntime = "2.6.1"
+rxandroid = "2.1.1"
+rxjava = "2.2.21"
+
+[libraries]
+android-spinkit = { module = "com.github.ybq:Android-SpinKit", version.ref = "androidSpinkit" }
+circleimageview = { module = "de.hdodenhof:circleimageview", version.ref = "circleimageview" }
+gson = { module = "com.google.code.gson:gson", version.ref = "gson" }
+junit = { group = "junit", name = "junit", version.ref = "junit" }
+ext-junit = { group = "androidx.test.ext", name = "junit", version.ref = "junitVersion" }
+espresso-core = { group = "androidx.test.espresso", name = "espresso-core", version.ref = "espressoCore" }
+appcompat = { group = "androidx.appcompat", name = "appcompat", version.ref = "appcompat" }
+material = { group = "com.google.android.material", name = "material", version.ref = "material" }
+activity = { group = "androidx.activity", name = "activity", version.ref = "activity" }
+constraintlayout = { group = "androidx.constraintlayout", name = "constraintlayout", version.ref = "constraintlayout" }
+legacy-support-v4 = { group = "androidx.legacy", name = "legacy-support-v4", version.ref = "legacySupportV4" }
+lifecycle-livedata-ktx = { group = "androidx.lifecycle", name = "lifecycle-livedata-ktx", version.ref = "lifecycleLivedataKtx" }
+lifecycle-viewmodel-ktx = { group = "androidx.lifecycle", name = "lifecycle-viewmodel-ktx", version.ref = "lifecycleViewmodelKtx" }
+
+generativeai = { module = "com.google.ai.client.generativeai:generativeai", version.ref = "generativeai" }
+photoview = { module = "com.github.chrisbanes:PhotoView", version.ref = "photoview" }
+reactive-streams = { module = "org.reactivestreams:reactive-streams", version.ref = "reactiveStreams" }
+guava = { module = "com.google.guava:guava", version.ref = "guava" }
+room-compiler = { module = "androidx.room:room-compiler", version.ref = "roomRuntime" }
+room-runtime = { module = "androidx.room:room-runtime", version.ref = "roomRuntime" }
+room-rxjava2 = { module = "androidx.room:room-rxjava2", version.ref = "roomRuntime" }
+rxandroid = { module = "io.reactivex.rxjava2:rxandroid", version.ref = "rxandroid" }
+rxjava = { module = "io.reactivex.rxjava2:rxjava", version.ref = "rxjava" }
+
+[plugins]
+android-application = { id = "com.android.application", version.ref = "agp" }
+
