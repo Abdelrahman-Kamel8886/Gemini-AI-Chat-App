@@ -1,9 +1,23 @@
 # Gemini Ai Chat App
 Gemini Ai Chat App is an Android app that lets you chat with AI powered by Gemini. Talk, create, discover with AI.
 
-## Api
+## Features
+- **Intelligent Responses:** Uses Gemini AI to provide context-aware and relevant responses.
+- **Real-time Chat:** Supports real-time messaging.
+- **Message History:** Stores and retrieves chat history.
+- **Customizable Chat Interface:** Allows users to personalize the appearance of the chat interface.
+- **Splash Screen Animation:** Features an engaging splash screen animation that showcases the app’s logo with a rotating effect during app startup.
+  
+# API
 Using [Gemini API](https://ai.google.dev/gemini-api/docs/get-started/tutorial?lang=android) for Android.
 
+## Technologies Used
+- **Programming Languages:** Java
+- **Frameworks:** Android SDK
+- **Database:** Room Database
+- **AI:** Gemini AI
+- **Reactive Programming:** RxJava
+- **Version Control:** Git, GitHub
 
 ## Splash
 https://github.com/user-attachments/assets/9df6f789-18a1-44b6-8077-243775e80c1f
@@ -34,19 +48,38 @@ https://github.com/user-attachments/assets/9df6f789-18a1-44b6-8077-243775e80c1f
 ![12](https://github.com/user-attachments/assets/18227b3c-9405-45ed-bef1-96f12ec35f5d)
 ![13](https://github.com/user-attachments/assets/d0f40c8a-ad10-47c0-8d5b-8c9ab914f317)
 
+## Installation
+### Prerequisites
+- **Android Studio installed on your machine.**
+### Steps
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/Abdelrahman-Kamel8886/Gemini-AI-Chat-App.git
+3. Open the project in Android Studio.
+4. Sync the project with Gradle files.
+5. Run the app on an emulator or a physical device.
 
+## Usage
+1. Start a new chat or continue an existing conversation.
+2. Receive real-time responses from Gemini AI.
+3. Customize the chat interface to your preference.
+4. Enjoy the splash screen animation featuring the app’s logo with a rotating effect during startup.
+   
+## Contributing
+We welcome contributions from the community! Please follow these steps to contribute:
+1. Fork the repository.
+2. Create a new branch (git checkout -b feature-branch).
+3. Commit your changes (git commit -m 'Add some feature').
+4. Push to the branch (git push origin feature-branch).
+5. Open a pull request.
 
-## Author
-Abdelrahman Kamel
+## Contact
+For any questions or inquiries, please contact:
 
+### Abdelrahman Kamel
 
-
-
-
-
-
-
-
+- **LinkedIn: [LinkedIn Profile](www.linkedin.com/in/abdelrahman-kamel-7a7457200)**
+- **Email: abdelrahmankamel8886@gmail.com**
 
 
 
