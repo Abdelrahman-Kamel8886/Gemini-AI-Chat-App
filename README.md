@@ -75,11 +75,9 @@ We welcome contributions from the community! Please follow these steps to contri
 
 ## Contact
 For any questions or inquiries, please contact:
-
-### Abdelrahman Kamel
-
-- **LinkedIn: [LinkedIn Profile](www.linkedin.com/in/abdelrahman-kamel-7a7457200)**
-- **Email: abdelrahmankamel8886@gmail.com**
+- ### Abdelrahman Kamel
+  - **LinkedIn: [LinkedIn Profile](www.linkedin.com/in/abdelrahman-kamel-7a7457200)**
+  - **Email: abdelrahmankamel8886@gmail.com**
 
 
 
